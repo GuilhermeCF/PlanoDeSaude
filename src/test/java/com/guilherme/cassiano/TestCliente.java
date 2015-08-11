@@ -13,7 +13,7 @@ public class TestCliente extends TestCase {
     public void testClientValido()
     {
     	Cliente novoCliente = new Cliente("Ana",20);
-		assertEquals("Ana", novoCliente.getNome());
+		assertEquals("Guilherme", novoCliente.getNome());
 		assertEquals(20, novoCliente.getIdade());
     }
 
