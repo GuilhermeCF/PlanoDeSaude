@@ -5,7 +5,7 @@ public class Cliente {
 	private String nome;
 	private int idade;
 	
-	public Client(String nome, int idade) {
+	public Cliente(String nome, int idade) {
 		if( nome == null || nome.equals("") ) {
 			this.nome = "(sem nome)";
 		} else {
